@@ -21,7 +21,7 @@ app.post('/book', (req, res) => {
 
     // Output the book to the console for debugging
     console.log(book);
-    books.push(books);
+    books.push(book);
 
     res.send('Book is added to the database');
 });
